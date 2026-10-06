@@ -7,7 +7,7 @@ public class PrimeNumber {
         int number = sc.nextInt();
         boolean isPrime = true;
         for(int i = 2; i <= number-1; i++){
-            if (number % i == 0){
+            if(number % i == 0){
                 isPrime = false;
             }
         }if(isPrime){
