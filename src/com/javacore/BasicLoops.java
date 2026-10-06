@@ -30,59 +30,6 @@ public class BasicLoops {
             System.out.println(number + "*" + i  + "=" + (number * i));
         }
         */
-
-        //Sum of the Digits
-        /*
-        System.out.println("Enter a number");
-        int number = sc.nextInt();
-                int digit = 0 ;
-                int result = 0;
-                while(number != 0){
-                    digit += number % 10;
-                    number /= 10;
-                }
-                System.out.println(digit);
-                */
-// Written for the counting number of digits
-        /*
-        System.out.print("Enter a number: ");
-        int num = sc.nextInt();
-        int digit = 0;
-        int count = 0;
-        while(num != 0){
-            digit = num % 10;
-            num = num/10;
-            count++;
-        }System.out.println(count);
-        */
-//Created for finding the largest digit ;
-        /*
-        int num =  sc.nextInt();
-        int digit = 0;
-        int larger = 0;
-        while(num != 0) {
-            digit = num % 10;
-            num = num / 10;
-            if(digit > larger){
-            larger = digit;
-                System.out.println(larger);
-            }
-
-        }
-*/
-
-        //Created for  findiing small digit
-        System.out.print("Enter a number: ");
-        int num = sc.nextInt();
-        int digit = 0;
-        int small = 0;
-        while(num != 0) {
-            digit = num % 10;
-            num = num/10;
-            if(digit <= small) {
-                small = digit;
-                System.out.println("The smallest number is: " + small);
-            }
-        }
     }
 }
+
