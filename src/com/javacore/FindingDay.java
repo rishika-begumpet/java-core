@@ -1,3 +1,5 @@
+package com.javacore;
+
 import java.util.Scanner;
 
 public class FindingDay {
